@@ -1,0 +1,138 @@
+body {
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+p, h2, h4 {
+	margin: 0;
+	padding: 0;
+	line-height: 28px;
+}
+
+.logo {
+	width: 300px;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+
+}
+
+.imgHolder {
+	text-align: center;
+	background-image: url('../img/text-solaris.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.colorSelector {
+	margin-top: 20px;
+}
+.colorItem {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: red;
+	display: inline-block;
+	margin-right: 15px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.colorBlue {
+	background-color: blue;
+}
+
+.colorWhite {
+	background-color: #acdcdc;
+}
+.colorRed {
+	background-color: red;
+}
+.colorBlack {
+	background-color: black;
+}
+.colorWhitePure {
+	background-color: white;
+}
+.colorOrange {
+	background-color: orange;
+}
+.colorGraphite {
+	background-color: grey;
+}
+
+h2 {
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+
+form {
+	padding: 20px;
+	border: 7px solid grey;
+}
+
+form .container {
+}
+
+.col-1 {
+	width: 33%;
+	float: left;
+	display: inline-block;
+	padding-bottom: 10px;
+	/*margin-right: 300px;*/
+
+}
+
+.col-1 div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.model-summary {
+	display: inline-block;
+	position: absolute;
+	padding: 25px;
+	top: 25px;
+	right: 25px;
+	width: 300px;
+	height: 400px;
+	background-color: rgba(17,126,209,0.05);
+	height: 220px;
+}
+
+.model-summary h2 {
+	color: blue;
+	margin-bottom: 20px;
+}
+
+.model-specs, .model-price {
+	margin-bottom: 20px;
+}
+
+.model-price {
+	color: green;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.button {
+	display: inline-block;
+	padding: 12px 25px;
+	background-color: blue;
+	cursor: pointer;
+	border-radius: 50px;
+	color: white;
+	font-weight: bold;
+}
+
+.button:hover {
+	background-color: #1f75fe;
+}
+
+.clearfix:after, .clearfix:before {
+	display: table;
+	content: "";
+}
+
+.clearfix {
+	clear: both;
+}
